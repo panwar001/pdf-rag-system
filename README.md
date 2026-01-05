@@ -1,8 +1,16 @@
-insurance-rag-system
+pdf-rag-system
 
-RAG System for Insurance Policies Q&A
+RAG System for PDF Q&A
 
-Run Chatbot using command - streamlit run chatbot.py
+* pip install requirements.txt
+
+* Embedding Model - HuggingFaceEmbeddings [all-mpnet-base-v2]
+
+* Vector DB - chromadb
+
+* ollama tool to pull llama3 model
+
+* Run Chatbot using command - streamlit run chatbot.py
 
 RAG pipeline - 
 
